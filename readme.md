@@ -1,15 +1,12 @@
-# wayfarer
+# Node-postgres-querybuilder
 
-[![Build Status](https://travis-ci.org/maqui7295/wayfarer.svg?branch=master)](https://travis-ci.org/maqui7295/wayfarer)
-[![Coverage Status](https://coveralls.io/repos/github/maqui7295/wayfarer/badge.svg?branch=master)](https://coveralls.io/github/maqui7295/wayfarer?branch=master)
-
-Wayfarer is a trip booking application that was originally based on a challenge provided by Andela. I hope you'll find it useful as a starter app for your Node-ExpressJs project or as an educational material. It includes a simple class to manage SQL queries for postgreSQL which I may develop into a full query builder. Documentation of the APIs can be found [here](https://markwayfarer.docs.apiary.io/)
+This is a querybuilder intended to generate SQL queries for postgreSQL while relying on the node-postgres npm package to execute the queries.
 
 ## Installation
 
-    git clone https://github.com/maqui7295/wayfarer
+    git clone https://github.com/maqui7295/node-postgres-querybuilder
 
-    cd wayfarer
+    cd node-postgres-querybuilder
 
     yarn install
 
