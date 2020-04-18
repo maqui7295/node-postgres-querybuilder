@@ -1,0 +1,14 @@
+before_script:
+  - yarn install
+  - psql -c 'create database testdb;' -U postgres
+  - yarn run initdb
+language: node_js
+node_js:
+  - 'stable'
+  - '12.14.0'
+cache:
+  directories:
+    - 'node_modules'
+
+services:
+  - postgresql
