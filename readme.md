@@ -24,10 +24,10 @@ To run the application, cd into the root directory and run
 
     yarn start
 
-This (yarn start) creates the tables and populate it with some dummy data because it runs
+The above command `yarn start` creates the tables and populate it with some dummy data because it runs
 
     yarn run initdb
 
 Tests, both unit and integration written with [Jasmine](https://jasmine.github.io/) and [supertest](https://www.npmjs.com/package/supertest) can be run with
 
-    yarn test.
+    yarn test
